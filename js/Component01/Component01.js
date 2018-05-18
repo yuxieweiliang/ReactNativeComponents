@@ -36,6 +36,8 @@ export default class Component01 extends Component {
         title: `${navigation.state.params.name}`,
     });
 
+    // 这里是提交文件
+
     snapshot = refname => () =>
         (refname
             ? captureRef(this.refs[refname], this.state.value)
